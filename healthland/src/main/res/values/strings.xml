@@ -1,0 +1,445 @@
+<resources>
+
+    <!--Activities-->
+    <string name="app_name">شمیم سلامتی</string>
+    <string name="about_shamim"> برنامه ای با ارائه خدمات سلامتی است که دارای امکانات متعددی نظیر داروخانه یاب و دارویاب است. از طریق این ابزار می توان به آدرس داروخانه یا داروی مد نظر دسترسی داشت. </string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="pharmacy_finder">داروخانه یاب</string>
+    <string name="health_finder">سلامت یاب</string>
+    <string name="chance_tree_tittle">درخت شانس</string>
+    <string name="chance_result">جایزه</string>
+    <string name="health_finder_desc">از این طریق می توانید مراکز سلامت را بیابید</string>
+    <string name="pharmacy_finder_desc">داروخانه یاب نزدیک ترین داروخانه های اطراف شما را با ارائه آدرس و شماره تماس نمایش می دهد. داروخانه یاب امکان نمایش این مکان ها را بر روی نقشه فراهم میکند</string>
+    <string name="_pharmacy_finder_desc">داروخانه های نزدیک به خود را مشاهده نمایید</string>
+    <string name="drug_finder">جستجو در داروخانه</string>
+    <string name="my_prescriptions">پاسخ نسخه یاب</string>
+    <string name="health_document">پرونده سلامت من</string>
+    <string name="my_drugs">نسخه های من</string>
+    <string name="my_drugs_desc">در این بخش امکان مشاهده داروهای تجویز شده وجود دارد</string>
+    <string name="my_tests">آزمایش های من</string>
+    <string name="my_tests_desc">در این جا می توانید نتیجه آزمایشهای خود را مشاهده نمایید</string>
+    <string name="health_document_desc">اینجا می توانید از داروها و آزمایش هایتان مطلع شوید</string>
+    <string name="phr">اطلاعات سلامت من</string>
+    <string name="phr_desc">اینجا میتوانید اطلاعات سلامت خود را بارگذاری و مشاهد نمایید</string>
+    <string name="add_phr">افزودن اطلاعات سلامت</string>
+    <string name="phr_detail">جزییات سلامت من</string>
+    <string name="new_request">درخواست جدید</string>
+
+    <string name="my_prescriptions_desc">اینجا می توانید لیست نسخه های درخواستی تان را مشاهده نمایید </string>
+    <string name="drug_finder_desc">در اینجا می توان دارو یا اقلام آرایشی بهداشتی را بارگذاری نمود</string>
+    <string name="title_activity_home">خانه</string>
+    <string name="pharmacies">داروخانه های نزدیک من</string>
+    <string name="navigation_drawer_open">باز</string>
+    <string name="navigation_drawer_close">بسته</string>
+    <string name="shamim_website">http://shamimsalamati.ir/</string>
+
+    <!--Drawer menu titles-->
+    <string name="username">نام کاربری</string>
+    <string name="setting">تنظیمات</string>
+    <string name="edit_profile">ویرایش پروفایل</string>
+    <string name="about_us">درباره ما</string>
+    <string name="messages">پیام ها</string>
+    <string name="exit">خروج از حساب کاربری</string>
+    <string name="headline">تیتر</string>
+    <string name="sub_head">تیتر دوم</string>
+    <string name="_help">راهنما</string>
+    <string name="my_score">امتیاز شما در قرعه کشی</string>
+
+    <!--Login & SignUp strings-->
+    <string name="phone">شماره تلفن همراه خود را وارد نمایید</string>
+    <string name="password">رمز عبور</string>
+    <string name="login">ورود</string>
+    <string name="not_account_yet">حساب کاربری ندارید؟</string>
+    <string name="email">ایمیل</string>
+    <string name="name">نام</string>
+    <string name="last_name">نام خانوادگی</string>
+    <string name="already_member">قبلا ثبت نام کرده اید؟</string>
+    <string name="create_account">ساخت حساب کاربری</string>
+    <string name="send_code">ارسال کد فعال سازی</string>
+    <string name="code_sent"> کد فعالسازی ارسال شد.</string>
+    <string name="code"> کد فعالسازی را وارد نمایید</string>
+    <string name="forget_password">رمز عبور خود را فراموش کرده اید؟</string>
+    <string name="password_or_code">رمز عبور یا کد یک بار مصرف</string>
+    <string name="send_code_msg">لطفا شماره تلفن خود را وارد نموده تا کد فعالسازی را جهت ثبت نام یا ورود ارسال کنیم.</string>
+    <string name="login_or_reg_msg"> لطفا کد ارسالی را وارد کنید تا در صورتی که عضو شمیم سلامتی نشده اید ثبت نام و در غیر اینصورت وارد برنامه شوید</string>
+    <string name="phone_example"> مثال : 09121234567</string>
+
+    <!--Requests-->
+    <string name="defaultServerRequestUrl">defaultServerRequestUrl</string>
+    <string name="state">وضعیت</string>
+    <string name="response">پاسخ</string>
+    <string name="response_waiting">در انتظار پاسخ</string>
+    <string name="contact_info">اطلاعات تماس</string>
+    <string name="req_desc">توضیحات تقاضا</string>
+
+    <!--Dialogs & Message-->
+    <string name="plz_wait">لطفا کمی صبر کنید ...</string>
+    <string name="plz_wait_some_seconds">لطفا چند ثانیه صبر کنید تا موقعیت شما دریافت شود ...</string>
+    <string name="dialog_message">آیا میخواهید با این شماره تماس بگیرید؟</string>
+    <string name="under_construction">در حال پیاده سازی ...</string>
+    <string name="compressing">در حال فشرده سازی ... </string>
+    <string name="edit_successful">تغییرات با موفقیت انجام شد. </string>
+    <string name="sms_permission_not_allowed">اجازه دسترسی ارسال پیامک برای فعالسازی این سرویس داده نشد.</string>
+
+    <!--Alert and Toast-->
+    <string name="fill_at_least_one_field"> لطفا یکی از دو فیلد توضیحات  یا تصویر نسخه را پر یا بارگذاری کنید.</string>
+    <string name="plz_connect_to_the_internet">اتصال شما به اینترنت قطع است.</string>
+    <string name="plz_try_again">لطفا دوباره تلاش کنید</string>
+    <string name="timeout">TimeoutError</string>
+    <string name="plz_fill_all_fields">TimeoutError</string>
+    <string name="enter_valid_password">لطفا رمز عبور خود را  با حداقل شش کاراکتر وارد کنید.</string>
+    <string name="enter_valid_phone">شماره تلفن همراه نمی تواند کمتر از 11 رقم باشد</string>
+    <string name="phone_not_empty">شماره تلفن همراه نمی تواند خالی باشد</string>
+    <string name="phone_not_mobile">شماره درج شده شماره همراه نمی باشد</string>
+    <string name="login_failed">عدم موفقیت در ورود</string>
+    <string name="signup_failed">عدم موفقیت در ثبت نام</string>
+    <string name="at_least_three_char">حداقل سه کاراکتر</string>
+    <string name="four_characters">کد فعال سازی نمی تواند کمتر از 4 رقم باشد</string>
+    <string name="enter_valid_code">کد فعال سازی نمی تواند خالی باشد</string>
+    <string name="mandatory_field">پر کردن این فیلد اجباریست</string>
+    <string name="enter_valid_email">لطفا ایمیل خود را صحیح وارد کنید.</string>
+    <string name="ten_chars">کد ملی ده رقمی است</string>
+    <string name="email_validation">ایمیل وارد شده صحیح نیست</string>
+    <string name="r_u_sure_to_quit">آیا برای خروج از برنامه مطمئن هستید؟</string>
+    <string name="load_failed">بارگذاری موفقیت آمیز نبود.</string>
+    <string name="no_more_item">مورد دیگری برای نمایش وجود ندارد.</string>
+    <string name="try_again">تلاش مجدد</string>
+    <string name="error">خطا</string>
+    <string name="error_connection">خطا در برقراری ارتباط</string>
+    <string name="no_phone">شماره ای جهت تماس موجود نیست</string>
+    <string name="location_not_found">چنین آدرسی موجود نیست</string>
+
+    <!--Google Api Key-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false"> AIzaSyDGM3_EuGyuJ0nlfNvN2E_kX7Nb5AgcKWo </string>
+
+    <!--Items-->
+    <string name="phone_contact">شماره تماس</string>
+    <string name="cancel">لغو</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="ok">تایید</string>
+    <string name="send">ارسال</string>
+    <string name="close">بستن</string>
+    <string name="upload_img">افزودن تصویر</string>
+    <string name="select_from_gallery">انتخاب از گالری</string>
+    <string name="capture_img">گرفتن عکس</string>
+    <string name="address">آدرس</string>
+    <string name="description">توضیحات دارو</string>
+    <string name="answers">پاسخ ها </string>
+    <string name="unknown">نامشخص</string>
+    <string name="image">تصویر</string>
+    <string name="call">تماس</string>
+    <string name="tags">برچسب ها</string>
+
+
+    <!--GPS-->
+    <string name="GPSAlertDialogTitle">اجازه گرفتن موقعیت</string>
+    <string name="GPSAlertDialogMessage">آیا اجازه دریافت موقعیت تان را جهت نمایش نزدیکترین مراکز سلامت را به ما می دهید؟</string>
+    <string name="title_activity_prescription_finder">بارگذاری اطلاعات </string>
+    <string name="prescription_finder">جستجو در داروخانه</string>
+    <string name="current_location">مکان فعلی</string>
+
+    <!--PrescriptionModel-->
+    <string name="prescription_description">توضیحات نسخه، دارو یا اقلام آرایشی، بهداشتی</string>
+    <string name="prescription">نسخه</string>
+    <string name="prescription_next">مرحله بعد</string>
+    <string name="title_activity_select_location">انتخاب محدوده</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="prescription_detail">جزییات نسخه</string>
+    <string name="prescriptions">نسخه ها</string>
+
+    <!--SelectLocation-->
+    <string name="city_state">شهر و استان</string>
+    <string name="title_activity_my_requests">تقاضاهای دارویی</string>
+
+    <!--Status-->
+    <string name="help">راهنمایی</string>
+    <string name="all_exists">موجود بودن همه داروها</string>
+    <string name="some_exists">موجود بودن برخی از داروها</string>
+    <string name="alternative">موجود بودن داروهای جایگزین</string>
+
+    <!--ContactPharmacy-->
+    <string name="pharmacy_name">نام داروخانه :</string>
+    <string name="pharmacy_phone">شماره تماس داروخانه : </string>
+    <string name="pharmacy_address">آدرس داروخانه :</string>
+    <string name="pharmacy_date">تاریخ پاسخ داروخانه :</string>
+    <string name="pharmacy_status">موجود بودن در دارو خانه :</string>
+    <string name="pharmacy_response">پاسخ داروخانه :</string>
+    <string name="pharmacy_help">راهنمایی داروخانه :</string>
+
+    <!--MyRequests-->
+    <string name="sent_date">ارسال شده در تاریخ :</string>
+    <string name="response_count"> تعداد پاسخ ها :</string>
+    <string name="no_response">هنوز پاسخی ارسال نشده است.</string>
+    <string name="response_date">تاریخ ارسال پاسخ : </string>
+    <string name="title_activity_profile">تنظیمات</string>
+    <string name="title_activity_health_document">پرونده سلامت من</string>
+    <string name="title_activity_send_prescription">ارسال نسخه</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Filter -->
+    <string name="search_zone">شعاع جستجو</string>
+    <string name="work_interval">وضعیت فعالیت</string>
+    <string name="filter">فیلتر</string>
+    <string name="search_by">جستجو بر اساس ...</string>
+    <string name="all">همه</string>
+    <string name="five_hundred">500 متری</string>
+    <string name="one_km">یک کیلومتری</string>
+    <string name="two_km">دو کیلومتری</string>
+    <string name="five_km">پنج کیلومتری</string>
+    <string name="ten_km">ده کیلومتری</string>
+
+    <string name="daily">روزانه</string>
+    <string name="full_time">شبانه روزی</string>
+    <string name="morning">نیمه وقت صبح</string>
+    <string name="afternoon">نیمه وقت عصر</string>
+
+    <string name="pharmacy_type">نوع کاربری</string>
+    <string name="_private">خصوصی</string>
+    <string name="hospital">بیمارستان</string>
+    <string name="educative">آموزشی</string>
+    <string name="clinic">درمانگاه</string>
+    <string name="non_private">دولتی</string>
+    <string name="sepah">سپاه</string>
+    <string name="army">ارتش</string>
+    <string name="naja">ناجا</string>
+    <string name="red_crescent">هلال احمر</string>
+    <string name="tamin">تامین اجتماعی</string>
+    <string name="organization">وابسته به ارگانها و نهادها</string>
+
+    <!--Permission-->
+    <string name="permission_denied">اجازه دسترسی داده نشد</string>
+    <string name="location_permission_denied">اجازه دسترسی به مکان داده نشد</string>
+    <string name="call_permission_denied">اجازه دسترسی به تماس داده نشد</string>
+    <string name="permission_required_toast">پیغام دریافت اجازه</string>
+    <string name="permission_rationale_location">منطق دریافت دسترسی به مکان</string>
+    <string name="camera_permission_denied">اجازه دسترسی به دوربین داده نشد</string>
+    <string name="location_permission">دسترسی به مکان</string>
+
+    <!--Profileodel-->
+    <string name="ncode">شماره ملی</string>
+    <string name="fname">نام</string>
+    <string name="lname">نام خانوادگی</string>
+    <string name="weight">وزن</string>
+    <string name="height">قد</string>
+    <string name="blood_type">گروه خونی</string>
+    <string name="birth_date">تاریخ تولد</string>
+    <string name="gender">جنسیت</string>
+    <string name="insurance_code">کد بیمه</string>
+    <string name="male">مرد</string>
+    <string name="female">زن</string>
+    <string name="medicalNotes">شرایط خاص پزشکی</string>
+    <string name="medications">داروهای مورد استفاده</string>
+    <string name="allergies">آلرژی و حساسیت ها</string>
+    <string name="emergencyContact">مخاطب برای مواقع ضروری</string>
+
+    <!--Blood Type-->
+    <string name="select">انتخاب کنید</string>
+    <string name="negative_o">O−</string>
+    <string name="positive_o">O+</string>
+    <string name="negative_a">A−</string>
+    <string name="positive_a">A+</string>
+    <string name="negative_b">B−</string>
+    <string name="positive_b">B+</string>
+    <string name="negative_ab">AB−</string>
+    <string name="positive_ab">AB+</string>
+    <string name="title_activity_entry">ثبت کد ارسالی</string>
+
+    <!--Prescription list-->
+    <string name="see_detail">مشاهده جزییات</string>
+    <string name="prescription_date">تاریخ ارسال نسخه</string>
+    <string name="doctor_name">نام پزشک</string>
+    <string name="tracking_code">کد رهگیری</string>
+    <string name="payable_by_patient"> پرداختی بیمار (تومان)</string>
+    <string name="_pharmacy_name">نام داروخانه </string>
+
+    <!--Map Activity-->
+    <string name="map_as_list">لیست</string>
+    <string name="map">نقشه</string>
+    <string name="map_activity">مراکز درمانی اطراف</string>
+    <string name="no_health_center">موردی یافت نشد</string>
+    <string name="party_list">لیست مراکز سلامت</string>
+    <string name="select_new_location">انتخاب محل جدید</string>
+
+    <!--Prescription detail-->
+    <string name="sending_date">تاریخ پذیرش</string>
+    <string name="patient_name">نام بیمار</string>
+    <string name="patient_ncode">کد ملی بیمار</string>
+    <string name="patient_phone">تلفن بیمار</string>
+    <string name="patient_gender">جنسیت بیمار</string>
+    <string name="drug_list">لیست داروها</string>
+    <string name="doctor_speciality">تخصص پزشک</string>
+    <string name="prescription_list_detail">جزییات نسخه</string>
+    <string name="medical_advice">توصیه دارویی</string>
+
+    <!-- Drug detail-->
+    <string name="drug">دارو</string>
+    <string name="drug_name">نام دارو</string>
+    <string name="drug_code">کد دارو</string>
+    <string name="drug_usage_guide">نحوه استفاده از دارو</string>
+    <string name="drug_count">تعداد</string>
+    <string name="drug_cost_paid">پرداختی بیمار (تومان)</string>
+    <string name="drug_detail">جزییات دارو</string>
+    <string name="title_activity_message">پیام ها</string>
+    <string name="drug_name_not_set">نام دارو ثبت نشده</string>
+
+    <!-- Messages -->
+    <string name="message_date">تاریخ ارسال</string>
+
+    <!-- FeedBack And Report-->
+    <string name="report">ارسال گزارش تخلف</string>
+    <string name="report_desc">این قسمت از برنامه به ارسال گزارش تخلف داروخانه ها اختصاص دارد</string>
+    <string name="sms_not_received">عدم دریافت پیامک</string>
+    <string name="wrong_drug_count">مغایرت در تعداد دارو</string>
+    <string name="wrong_drug_type">مغایرت در نوع دارو</string>
+    <string name="wrong_drug_dose">مغایرت در دوز دارو</string>
+    <string name="wrong_drug_cost">پرداخت هزینه اضافی</string>
+    <string name="other_reason">سایر موارد</string>
+    <string name="vote_text">لطفا با ثبت امتیاز ما را در بهبود کیفیت خدمات شمیم سلامتی یاری کنید</string>
+    <string name="feedback_description">توضیحات</string>
+    <string name="rate_toast">برای ارسال بازخورد ثبت امتیاز الزامی است</string>
+    <string name="feedback_success_toast">بازخورد شما ارسال شد</string>
+    <string name="uploads_layout_textView">در صورت شکایت از داروخانه اسکن نسخه را ارسال نمایید</string>
+    <string name="empty_inbox">شما پیامی ندارید</string>
+    <string name="empty_drug_list">شما نسخه ای ندارید</string>
+    <string name="empty_request_list">شما نسخه ای ندارید</string>
+    <string name="title_activity_report">گزارش تخلف</string>
+
+    <!-- Menu Item-->
+    <string name="settings">تنظیمات</string>
+
+    <!-- Transactions -->
+    <string name="transaction">تراکنش</string>
+    <string name="transactions">تراکنش ها</string>
+    <string name="toman">تومان</string>
+    <string name="done_date">انجام شده در تاریخ</string>
+    <string name="pricing">تعرفه ها</string>
+    <string name="show_pricing">مشاهده تعرفه ها</string>
+    <string name="credit">اعتبار باقی مانده </string>
+    <string name="my_services">سرویس های من</string>
+    <string name="subscription">عضویت</string>
+    <string name="monthly">ماهیانه</string>
+    <string name="subscription_active">شما این سرویس را فعال کرده اید</string>
+    <string name="subscription_inactive">شما عضو این سرویس نیستید</string>
+    <string name="activate">فعال سازی</string>
+    <string name="deactivate">غیرفعال سازی</string>
+    <string name="no_transaction">شما تراکنشی ندارید.</string>
+
+    <string name="blank_fragment">فرگمنت خالی</string>
+
+    <!--Intro-->
+    <string name="title_activity_welcome">راهنمای برنامه</string>
+    <string name="next">بعدی</string>
+    <string name="skip">بعدا</string>
+    <string name="start">شروع برنامه</string>
+    <string name="slide_1_title">سلامت یاب</string>
+    <string name="slide_1_desc">با انتخاب یک محل بر روی نقشه نزدیکترین مراکز سلامت در دسترس شما هستند</string>
+    <string name="slide_2_title">نسخه یاب</string>
+    <string name="slide_2_desc">با گرفتن تصویر از نسخه خود و یا نوشتن نام داروی مورد نیاز یا اقلام آرایشی بهداشتی، داروخانه ها پاسخگوی شما خواهند بود</string>
+    <string name="slide_3_title">پرونده سلامت من</string>
+    <string name="slide_3_desc">در اینجا همیشه به نسخه های خود دسترسی خواهید داشت</string>
+    <string name="slide_4_title">شرکت در قرعه کشی</string>
+    <string name="slide_4_desc">برنده خوش شانس یک دستگاه خودروی کیا اسپورتیج باشید.</string>
+    <string name="slide_5_title">سرزمین سلامتی</string>
+    <string name="slide_5_desc">ابزارها و محصولات و برنامه های کاربردی سلامتی را در سرزمین سلامتی تجربه کنید.</string>
+    <string name="play_again_desc">برای مشاهده مجدد توضیحات در منوی برنامه گزینه راهنما را کلیک کنید.</string>
+    <string name="play_again">نمایش دوباره</string>
+
+    <!--health finder-->
+    <string name="food_lab_finder">آزمایشگاه غذایی یاب</string>
+    <string name="idatis_finder">آیداتیس یاب</string>
+    <string name="hospital_finder">بیمارستان یاب</string>
+    <string name="hospital_finder_desc"> نزدیک ترین بیمارستان های اطراف خود را بیابید</string>
+    <string name="medical_lab_finder">آزمایشگاه پزشکی یاب</string>
+    <string name="medical_lab_finder_desc">آزمایشگاه های پزشکی اطراف خود را جستجو کنید</string>
+
+    <string name="no_desc">توضیحی وجود ندارد.</string>
+
+    <!--PHR-->
+    <string name="no_phr_info">شما هنوز اطلاعاتی ثبت نکرده اید.</string>
+    <string name="insert_phr_successful">ثبت اطلاعات با موفقیت انجام شد. </string>
+    <string name="insert_phr_unsuccessful">ثبت اطلاعات با خطا مواجه شد. </string>
+    <string name="no_phr_image">هنوز عکسی را آپلود نکرده اید.</string>
+    <string name="delete_phr">حذف</string>
+    <string name="delete_phr_successful">حذف اطلاعات با موفقیت انجام شد. </string>
+    <string name="delete_phr_unsuccessful">حذف اطلاعات انجام نشد. </string>
+
+    <!--Advice-->
+    <string name="no_advice">توصیه دارویی موجود نیست.</string>
+
+    <!--Score-->
+    <string name="score">امتیاز</string>
+    <string name="score_in_lottery">امتیاز شما در قرعه کشی</string>
+    <string name="score_in_lottery_desc">مشاهده و افزایش امتیاز</string>
+    <string name="total_score">امتیاز کل</string>
+    <string name="lottery">قرعه کشی</string>
+    <string name="chance_tree">درخت شانس</string>
+    <string name="sportage">Kia Sportage</string>
+    <string name="join_lottery">شرکت در قرعه کشی</string>
+    <string name="e_prescription">نسخه الکترونیک</string>
+    <string name="lottery_date_question">قرعه کشی چه زمانی برگزار میشود؟</string>
+    <!--<string name="lottery_date_answer">این قرعه کشی در بهار 97 برگزار خواهد شد و پیش از قرعه کشی کدهای قرعه کشی به تمام کاربران سرویس شمیم سلامتی ارسال خواهد شد. </string>-->
+    <string name="after_lottery_question">آیا پس از قرعه کشی امتیازات من صفر میشود؟</string>
+    <!--
+    <string name="after_lottery_answer">خیر، شمیم سلامتی به صورت مستمر جوایز بسیار نفیسی را قرعه کشی مینماید.نکته حائز اهمیت این است که امتیازات کاربران پس از هر قرعه کشی، به قرعه کشی بعد منتقل میشود و کاربران  وفادار شمیم سلامتی در قرعه کشی بعدی شمیم سلامتی شانس بالاتری برای برنده شدن خواهند داشت.</string>
+-->
+    <string name="increase_lottery_score_question">چگونه امتیازات خود را افزایش دهم؟</string>
+    <!--
+    <string name="increase_lottery_score_answer">بر اساس مدت  عضویت در سرویس های شمیم سلامتی و همچنین با دعوت هرچه بیشتر از دوستان به سرویس شمیم سلامتی. به عنوان مثال میتوانید لینک اختصاصی خود را در شبکه های اجتماعی منتشر کنید و با عضویت هر یک از دوستان خود 10 امتیاز دریافت کنید.</string>
+-->
+    <string name="invite_friends">ارسال لینک دعوت و افزایش امتیاز</string>
+    <string name="join_services">عضویت در سرویس ها</string>
+    <string name="be_the_winner">شما برنده خوش شانس خودروی اسپورتیج باشید.</string>
+    <string name="share_via">اشتراک با </string>
+
+    <!--Vas-->
+    <string name="reg_field_contains_four_char">کد فعالسازی چهار رقمی است.</string>
+    <string name="register">عضویت در سرویس</string>
+    <string name="reg_field_is_empty">کد فعالسازی وارد نشده است.</string>
+    <string name="operation_successful">عملیات موفقیت آمیز بود</string>
+    <string name="downloading">در حال دانلود نسخه جدید</string>
+    <string name="apk_not_available">برنامه در دسترس نمی باشد</string>
+    <string name="update_error">مشکلی در به روزرسانی برنامه به وجود آمد</string>
+    <string name="install">نصب</string>
+
+    <!--Shafa-->
+    <string name="shafa">شفا</string>
+    <string name="shafa_desc">برنامه تلویزیونی</string>
+    <string name="no_item">موردی یافت نشد</string>
+    <string name="empty"> </string>
+
+    <!--Party detail-->
+    <string name="party_detail">جزییات مرکز سلامت</string>
+    <string name="action_hide">عدم نمایش اطلاعات مرکز سلامت</string>
+    <string name="action_show">نمایش اطلاعات مرکز سلامت</string>
+    <string name="action_anchor_enable">Enable Anchor Point</string>
+    <string name="action_anchor_disable">Disable Anchor Point</string>
+    <string name="hello"><![CDATA[<b>Sliding Up Panel</b>]]></string>
+    <string name="follow">button</string>
+    <string name="distance">فاصله</string>
+
+    <!--Search-->
+    <string name="search_list">جستجوها</string>
+    <string name="search">جستجو</string>
+    <string name="search_here">جستجو در اینجا</string>
+    <string name="search_another_place">انتخاب محل جدید</string>
+    <string name="find_party">لطفا نام مرکز سلامت مورد نظر را در بالا وارد کنید ...</string>
+    <string name="find_drug">لطفا نام داروی مد نظر خود را در بالا وارد کنید ...</string>
+    <string name="no_such_party">چنین مکانی موجود نیست</string>
+    <string name="no_such_drug">چنین دارویی موجود نیست</string>
+    <string name="meter">متر</string>
+    <string name="meter_from_u">متری شما</string>
+
+    <!--Health Land-->
+    <string name="health_land">سرزمین سلامتی</string>
+    <string name="title">عنوان</string>
+    <string name="show_all">نمایش همه></string>
+    <string name="product_detail">جزییات محصول</string>
+
+    <!--Prescription-->
+    <string name="search_in_pharmacy">جستجو در دارخانه</string>
+    <string name="search_in_pharmacy_desc">میخواهید بدانید کدام داروخانه ها دارو یا نسخه مورد نظرتون را دارند؟ دکمه زیر را فشار بدهید تا ما این کار را برای شما انجام بدهیم!</string>
+    <string name="add_prescription">افزودن نسخه</string>
+
+</resources>
