@@ -3,6 +3,7 @@ package com.zamanak.healthland.api.request;
 import android.content.Context;
 
 
+import com.zamanak.healthland.LandOfHealthSDK;
 import com.zamanak.healthland.api.ApiErrorCB;
 import com.zamanak.healthland.api.ApiSuccessCB;
 import com.zamanak.healthland.api.BaseApi;
@@ -28,7 +29,7 @@ public class RequestGetMoreApps extends BaseApi {
         this.catName = catName;
         this.limit = limit;
         this.offset = offset;
-        this.api_key = Constants.BASE_API_KEY;
+        this.api_key = LandOfHealthSDK.getBaseApiKey();
     }
 
     @Override
