@@ -19,7 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.zamanak.healthland.activity.AdvancedWebViewActivity"/>
+        <activity android:name="com.zamanak.healthland.activity.AdvancedWebViewActivity" android:theme="@style/AppTheme"/>
         <activity android:name="com.zamanak.healthland.activity.EntryActivity" android:theme="@style/App_Theme" />
         <activity android:name="com.zamanak.healthland.activity.LandOfHealthDetailActivity" android:theme="@style/App_Theme"/>
 
