@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // please send token and base api key
         LandOfHealthSDK.sharedLandOfHealth().startLandOfHealthActivity(this,"","");
     }
 }
