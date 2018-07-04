@@ -7,6 +7,7 @@ import com.zamanak.landofhealth.R;
 
 public class HealthLandActivity extends BaseActivityNew {
 
+    // please send token and base api key
     @Override
     protected void processLogic(Bundle savedInstanceState) {
         pushFragment(HomeHealthLandFragment.class, R.id.fragment);
