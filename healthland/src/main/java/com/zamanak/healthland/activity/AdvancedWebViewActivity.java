@@ -13,6 +13,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -34,6 +35,7 @@ public class AdvancedWebViewActivity extends AppCompatActivity implements Advanc
     private ProgressBar pb;
     private AppCompatImageView ivBack,ivShare;
     private String title, link, shareText;
+    private RelativeLayout appBarLayout;
 
 
     @Override
@@ -45,6 +47,9 @@ public class AdvancedWebViewActivity extends AppCompatActivity implements Advanc
         pb = findViewById(R.id.pb);
         ivBack = findViewById(R.id.iv_back);
         ivShare = findViewById(R.id.iv_share);
+        appBarLayout = findViewById(R.id.web_layout);
+
+        appBarLayout.setVisibility(View.GONE);
 
         ivBack.setOnClickListener(this);
         ivShare.setOnClickListener(this);
