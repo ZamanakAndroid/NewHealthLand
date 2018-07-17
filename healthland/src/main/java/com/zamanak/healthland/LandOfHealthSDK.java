@@ -18,9 +18,9 @@ public class LandOfHealthSDK {
     private static final String TAG = "LandOfHealthSDK";
     private Application application;
 
-    private static  String BASE_API_KEY ;
-    private static String TOKEN ;
-    private static String BASE_URL ;
+    private static String BASE_API_KEY;
+    private static String TOKEN;
+    private static String BASE_URL;
 
 
     private static String GET_App_DETAILED = "/sarzamin-salamati/get-app-detailed";
@@ -28,7 +28,7 @@ public class LandOfHealthSDK {
     private static String Insert_Star = "/sarzamin-salamati/insert-star";
     private static String INSERT_COMMENT = "/sarzamin-salamati/insert-comment";
     private static String INCREASE_VIEW = "/sarzamin-salamati/increase-view";
-    private String LOAD_MORE_APPS = "/sarzamin-salamati/load-more-apps";
+    private static String LOAD_MORE_APPS = "/sarzamin-salamati/load-more-apps";
     private static String LOAD_MORE_COMMENTs = "/sarzamin-salamati/load-more-comments";
 
     private static volatile LandOfHealthSDK sdk = new LandOfHealthSDK();
@@ -90,7 +90,7 @@ public class LandOfHealthSDK {
         this.GET_MAIN_PAGE = GET_MAIN_PAGE;
     }
 
-    public String getLOAD_MORE_APPS() {
+    public static String getLOAD_MORE_APPS() {
         return LOAD_MORE_APPS;
     }
 
@@ -147,15 +147,15 @@ public class LandOfHealthSDK {
         this.application = application;
     }
 
-    public static LandOfHealthSDK sharedLandOfHealth(){
+    public static LandOfHealthSDK sharedLandOfHealth() {
         return sdk;
     }
 
-    public void startLandOfHealthActivity(Activity ctx,String token,String baseApiKey,String baseURL){
+    public void startLandOfHealthActivity(Activity ctx, String token, String baseApiKey, String baseURL) {
         setTOKEN(token);
         setApiAppKey(baseApiKey);
         setBASE_URL(baseURL);
-        Intent intent = new Intent(ctx , HealthLandActivity.class);
+        Intent intent = new Intent(ctx, HealthLandActivity.class);
         ctx.startActivity(intent);
     }
 }

@@ -24,7 +24,7 @@ public class RequestGetMoreApps extends BaseApi {
     public RequestGetMoreApps(Context context, ApiSuccessCB apiSuccessCB, ApiErrorCB apiErrorCB,
                               String catName, int limit, int offset) {
 
-        super(context, Urls.BASE_URL, Urls.LOAD_MORE_APPS, apiSuccessCB, apiErrorCB, true,
+        super(context, LandOfHealthSDK.getBASE_URL(), LandOfHealthSDK.getLOAD_MORE_APPS(), apiSuccessCB, apiErrorCB, true,
                 false);
         this.catName = catName;
         this.limit = limit;
