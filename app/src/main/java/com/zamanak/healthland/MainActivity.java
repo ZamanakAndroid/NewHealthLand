@@ -1,16 +1,51 @@
 package com.zamanak.healthland;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.AppCompatTextView;
+import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+import com.zamanak.healthland.activity.BaseActivityNew;
+
+public class MainActivity extends BaseActivityNew {
+
+    private AppCompatTextView tvHello;
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        // please send token and base api key and base url
-        LandOfHealthSDK.sharedLandOfHealth().startLandOfHealthActivity(this,"","","");
+    protected void processLogic(Bundle savedInstanceState) {
+        tvHello = findViewById(R.id.tvHello);
+        tvHello.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                LandOfHealthSDK.sharedLandOfHealth().startLandOfHealthActivity(MainActivity.this,"","","");
+            }
+        });
     }
+
+    @Override
+    protected void initView(Bundle savedInstanceState) {
+
+    }
+
+    @Override
+    protected int getLayoutResource() {
+        return R.layout.activity_main;
+    }
+
+    @Override
+    protected boolean isRtl() {
+        return true;
+    }
+
+    @Override
+    protected boolean isPortrait() {
+        return true;
+    }
+
+    @Override
+    protected void setListener() {
+
+    }
+
+
 }

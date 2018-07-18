@@ -12,13 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.zamanak.healthland.activity.HealthLandActivity" android:theme="@style/App_Theme" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name="com.zamanak.healthland.activity.HealthLandActivity" android:theme="@style/App_Theme" />
         <activity android:name="com.zamanak.healthland.activity.AdvancedWebViewActivity" android:theme="@style/AppTheme"/>
         <activity android:name="com.zamanak.healthland.activity.EntryActivity" android:theme="@style/App_Theme" />
         <activity android:name="com.zamanak.healthland.activity.LandOfHealthDetailActivity" android:theme="@style/App_Theme"/>
