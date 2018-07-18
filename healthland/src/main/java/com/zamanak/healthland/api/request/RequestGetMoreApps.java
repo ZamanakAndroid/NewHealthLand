@@ -30,6 +30,7 @@ public class RequestGetMoreApps extends BaseApi {
         this.limit = limit;
         this.offset = offset;
         this.api_key = LandOfHealthSDK.getBaseApiKey();
+        this.token = LandOfHealthSDK.getTOKEN();
     }
 
     @Override
