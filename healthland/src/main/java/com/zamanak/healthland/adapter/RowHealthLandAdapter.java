@@ -44,8 +44,6 @@ public class RowHealthLandAdapter extends RecyclerView.Adapter<RowHealthLandView
             holder.itemTitleTextView.setText(list.get(position).getTitle());
             Glide.with(context)
                     .load(list.get(position).getIcon())
-                    .placeholder(R.drawable.no_image)
-                    .error(R.drawable.no_image)
                     .into(holder.itemImageView);
 
             holder.layout.setOnClickListener(new View.OnClickListener() {

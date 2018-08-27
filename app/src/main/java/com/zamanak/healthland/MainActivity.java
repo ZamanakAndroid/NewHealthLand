@@ -10,7 +10,6 @@ public class MainActivity extends BaseActivityNew {
 
     private AppCompatTextView tvHello;
 
-
     @Override
     protected void processLogic(Bundle savedInstanceState) {
         tvHello = findViewById(R.id.tvHello);

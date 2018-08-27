@@ -68,8 +68,6 @@ onHealthLandItemClick.onClick(item);                            }
                         });
                 Glide.with(context)
                         .load(item.getIcon())
-                        .placeholder(R.drawable.no_image)
-                        .error(R.drawable.no_image)
                         .into((viewHolder.itemImageView));
             } catch (Exception e) {
                 e.printStackTrace();

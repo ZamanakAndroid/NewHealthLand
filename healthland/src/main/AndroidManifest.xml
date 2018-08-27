@@ -7,11 +7,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:name="com.zamanak.healthland.controller.App"
+        >
         <activity android:name="com.zamanak.healthland.activity.HealthLandActivity" android:theme="@style/App_Theme" />
         <activity android:name="com.zamanak.healthland.activity.AdvancedWebViewActivity" android:theme="@style/AppTheme"/>
         <activity android:name="com.zamanak.healthland.activity.EntryActivity" android:theme="@style/App_Theme" />
