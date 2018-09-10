@@ -4,8 +4,10 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.customtabs.CustomTabsIntent;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatImageView;
 import android.support.v7.widget.AppCompatTextView;
@@ -143,13 +145,18 @@ public class LandOfHealthDetailFragment extends BaseFragmentNew implements
                 if (result != null) {
                     runIncreaseViewApi(new PostAppIdRequest(appId));
                     //Intent intent = new Intent(getContext(), RunAppActivity.class);
-                    Intent intent = new Intent(getContext(), AdvancedWebViewActivity.class);
+                    /*Intent intent = new Intent(getContext(), AdvancedWebViewActivity.class);
                     intent.putExtra("link", result.getResult().getApp().getLink());
                     intent.putExtra("title", result.getResult().getApp().getTitle());
                     intent.putExtra("shareText", result.getResult().getApp().getShareMessage());
-                    startActivity(intent);
+                    startActivity(intent);*/
                     //new FinestWebView.Builder(mActivity).show(result.getResult().getApp().getLink());
-
+                    CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
+                    CustomTabsIntent customTabsIntent = builder.build();
+                    builder.setToolbarColor(getResources().getColor(R.color.colorPrimary));
+                    builder.setStartAnimations(getContext(), R.anim.slide_in_right, R.anim.slide_out_left);
+                    builder.setExitAnimations(getContext(), R.anim.slide_in_left, R.anim.slide_out_right);
+                    customTabsIntent.launchUrl(getContext(), Uri.parse(result.getResult().getApp().getLink()));
                 }
             }
         });
