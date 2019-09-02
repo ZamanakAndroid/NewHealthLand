@@ -119,7 +119,6 @@ public class Constants {
     /*Permissions*/
     public static final String CAMERA_PERMISSION = "android.permission.CAMERA";
     public static final String SEND_SMS_PERMISSION = "android.permission.SEND_SMS";
-    public static final String RECEIVE_SMS_PERMISSION = "android.permission.RECEIVE_SMS";
     public static final String WRITE_EXTERNAL_STORAGE_PERMISSION = "android.permission.WRITE_EXTERNAL_STORAGE";
 
     /*Header*/
@@ -144,7 +143,6 @@ public class Constants {
 
     //Permissions
     public static final int PERMISSION_READ_SMS = 9;
-    public static final int PERMISSION_RECEIVE_SMS = 10;
     public static final int PERMISSION_WRITE_EXTERNAL_STORAGE = 11;
     public static final int PERMISSION_LOCATION = 12;
 
